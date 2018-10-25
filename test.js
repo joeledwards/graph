@@ -87,7 +87,7 @@ async function test () {
     console.info(`Found metadata document:\n`, buzJson(doc))
   } catch (error) {
     console.error(error)
-    console.error(`Document "meta" probably doesnt exists.`)
+    console.error(`Document "meta" probably does not exists.`)
 
     // Create the document if it was missing
     coll.save({ _key: 'meta', author: 'joel' })

@@ -13,4 +13,4 @@ services:
       DB_HOST: "arango"
       DB_PORT: 8529
       DB_NAME: "sandbox"
-    command: /opt/app/node_modules/.bin/forever --watch --spinSLeepTime=5000 --minUptime=100 --watchDirectory=/opt/app/lib /opt/app/test.js
+    command: /opt/app/node_modules/.bin/forever --watch --spinSleepTime=1000 --minUptime=100 --watchDirectory=/opt/app/lib /opt/app/test.js
