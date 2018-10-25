@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "docker:fresh": "docker-compose kill; docker-compose rm -f; docker-compose up -d",
+    "docker:purge": "docker-compose kill; docker-compose rm -f",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
