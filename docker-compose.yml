@@ -1,0 +1,8 @@
+version: "3.6"
+services:
+  arango:
+    image: arangodb:3.3
+  node:
+    image: node:10-alpine
+    volumes:
+      - .:/opt/app
